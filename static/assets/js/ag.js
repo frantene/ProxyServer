@@ -18,11 +18,6 @@
 
 
 /*apps*/
-function gpt() {
-  agU = Ultraviolet.codec.xor.encode('https://ub7.org');
-  sessionStorage.setItem('agUrl', agU);
-  location.href = '/lessons';
-}
 
 function chess() {
   agU = Ultraviolet.codec.xor.encode('https://chess.com');
@@ -33,6 +28,11 @@ function discord() {
   agU = Ultraviolet.codec.xor.encode('https://discord.com');
   sessionStorage.setItem('agUrl', agU);
   location.href = '/lessons';
+}
+function kirka() {
+  agU = Ultraviolet.codec.xor.encode('https://kirka.io');
+  sessionStorage.setItem('agUrl', agU);
+  location.href = '/kirka';
 }
 function github() {
   agU = Ultraviolet.codec.xor.encode('https://github.com');
