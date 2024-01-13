@@ -32,7 +32,7 @@ function discord() {
 function kirka() {
   agU = Ultraviolet.codec.xor.encode('https://kirka.io');
   sessionStorage.setItem('agUrl', agU);
-  location.href = '/kirka';
+  location.href = '/lessons';
 }
 function github() {
   agU = Ultraviolet.codec.xor.encode('https://github.com');
