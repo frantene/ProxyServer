@@ -1,5 +1,5 @@
 (function () {
-  var defaultTitle = 'Doge | V4';
+  var defaultTitle = 'Aizer Tech';
   var defaultIcon = '/assets/img/doge.jpg';
 
   var storedTitle = localStorage.getItem('tabTitle');
@@ -22,7 +22,7 @@
 })();
 
 // Check for Clickoff Cloaking
-var defaultTitle = 'Doge | V4';
+var defaultTitle = 'Aizer Tech';
 var defaultIcon = '/assets/img/doge.jpg';
 var storedTitle = localStorage.getItem('tabTitle');
 var storedIcon = localStorage.getItem('tabIcon');
